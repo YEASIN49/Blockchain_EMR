@@ -1,31 +1,31 @@
 pragma solidity ^0.5.0;
-/*
-* code for testing purpose starts below
-*/
-contract AdvancedStorage {
-  uint[] public ids;
 
-  function add(uint id) public {
-    ids.push(id);
-  }
+// code for testing purpose starts below
+//
+//contract AdvancedStorage {
+//  uint[] public ids;
 
-  function get(uint i) view public returns(uint) {
-    return ids[i];
-  }
+//  function add(uint id) public {
+//    ids.push(id);
+//  }
+
+//  function get(uint i) view public returns(uint) {
+//    return ids[i];
+//  }
   
-  function getAll() view public returns(uint[] memory) {
-    return ids;
-  }
+//  function getAll() view public returns(uint[] memory) {
+//    return ids;
+//  }
 
-  function length() view public returns(uint) {
-    return ids.length;
-  }
-}
+//  function length() view public returns(uint) {
+//    return ids.length;
+//  }
+//}
 
-/*
-* code for testing purpose ends here
-* below are the intregated combined code
-*/
+
+// code for testing purpose ends here
+// below are the intregated combined code
+//
 contract AdvancedStorage {
 
 struct UserInfo {
